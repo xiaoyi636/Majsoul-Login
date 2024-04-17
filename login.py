@@ -37,7 +37,7 @@ for i in range(acccounts):
     # 4. 点击登录
     ActionChains(driver).move_to_element_with_offset(screen, 250, 50).click().perform()
     print('Entering game...')
-    sleep(20)  # 等待登录...
+   # 等待登录...
 
     # 模拟点击后等待20秒
     ActionChains(driver).move_to_element_with_offset(screen, 250, 100).click().perform()
