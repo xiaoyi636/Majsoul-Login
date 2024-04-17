@@ -39,7 +39,8 @@ for i in range(acccounts):
     print('Entering game...')
     sleep(20)  # 等待登录...
 
-    # 模拟点击后再等待20秒
+    # 模拟点击后等待20秒
+    ActionChains(driver).move_to_element_with_offset(screen, 250, 100).click().perform()
     sleep(20)
     print('Login success')
     driver.quit()
