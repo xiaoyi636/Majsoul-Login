@@ -15,4 +15,4 @@ jobs:
         run: pip install selenium==4.17.2
 
       - name: Majsoul login
-        run: python login.py ${{ secrets.583116271@qq.com }} ${{ secrets.Yu1314521 }}
+        run: python login.py ${{ 583116271@qq.com }} ${{ Yu1314521 }}
